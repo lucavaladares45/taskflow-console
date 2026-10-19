@@ -1,4 +1,4 @@
-\# TaskFlow
+TaskFlow
 
 
 
@@ -6,15 +6,15 @@ Gerenciador de tarefas (To-Do List) via console, feito em .NET 10 com testes uni
 
 
 
-\## Pré-requisitos
+Pré-requisitos
 
 
 
-\- \[.NET 10 SDK](https://dotnet.microsoft.com/download)
+\\[.NET 10 SDK](https://dotnet.microsoft.com/download)
 
 
 
-\## Compilar
+Compilar
 
 
 
