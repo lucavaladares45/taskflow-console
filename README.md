@@ -2,7 +2,7 @@ TaskFlow
 
 
 
-Gerenciador de tarefas (To-Do List) via console, feito em .NET 10 com testes unitários em xUnit.
+Gerenciador de tarefas via console, feito em .NET 10 com testes unitários em xUnit.
 
 
 
