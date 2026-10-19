@@ -11,14 +11,19 @@ public class TaskManager
         return task;
     }
 
-    public TaskItem GetById(Guid id)
+    public TaskItem? GetById(Guid id)
     {
-        return _tasks.First(t => t.Id == id); // lança exceção se não existir
+        return _tasks.FirstOrDefault(t => t.Id == id);
     }
 
     public bool CompleteTask(Guid id)
     {
         var task = GetById(id);
+        if (task == null)
+        {
+            return false;
+        }
+
         task.Complete();
         return true;
     }
